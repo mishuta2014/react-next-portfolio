@@ -65,11 +65,11 @@ const ContactPage = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-yellow-200 rounded-3xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Dear Mishuta 2014...</span>
+          <span>Dear Bohdan Kuliatov...</span>
           <textarea
             required
             rows={6}
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none "
+            className="bg-transparent border-b-2 border-b-black outline-none max-h-25 resize-none "
             name="user_message"
           />
           <span>My mail address is:</span>
